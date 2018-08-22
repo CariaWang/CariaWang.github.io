@@ -1,0 +1,75 @@
+body{
+	font-family:"Microsoft Yahei";
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+html, body{height: 95%}
+#wrapper{
+	padding-top: 1px;
+	width: 80%;
+	height: 100%;
+	background-color: #00BFFF;
+	margin: auto;
+	margin-top: 1%;
+}
+#moon{
+	width: fit-content;
+	height: fit-content;
+	/*border: 1px solid;*/
+	margin: auto;
+	margin-top: 70px;
+}
+#bridge{
+	width: fit-content;
+	height: fit-content;
+	/*border: 1px solid;*/
+	margin: auto;
+	margin-top: 35px;
+}
+#qi{
+	width: fit-content;
+	height: fit-content;
+	/*border: 1px solid;*/
+	position: fixed;
+	left: 345px;
+	top: 155px;
+}
+#xi{
+	width: fit-content;
+	height: fit-content;
+	/*border: 1px solid;*/
+	position: fixed;
+	right: 345px;
+	top: 155px;
+}
+#I{
+	width: fit-content;
+	height: fit-content;
+	/*border: 1px solid;*/
+	float: left;
+	/*margin-left: 10px;*/
+	margin-right: 100px;
+}
+#xin{
+	width: fit-content;
+	height: fit-content;
+	/*border: 1px solid;*/
+	float: left;
+	margin-top: 10px;
+}
+#U{
+	width: fit-content;
+	height: fit-content;
+	/*border: 1px solid;*/
+	float: left;
+	margin-left: 70px;
+}
+#a{
+	width: fit-content;
+	height: fit-content;
+	/*border: 1px solid;*/
+	margin: auto;
+	margin-top: 40px;
+}
