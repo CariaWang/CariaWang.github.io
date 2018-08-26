@@ -1,5 +1,5 @@
 ---
-title:  "Google Colab——用谷歌免费GPU跑你的深度学习代码（3）"
+title:  "Google Colab——用谷歌免费GPU跑你的深度学习代码（2）"
 header:
   teaser: "/assets/images/colab.jpg"
 categories: 

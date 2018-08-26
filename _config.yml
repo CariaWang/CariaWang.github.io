@@ -12,14 +12,14 @@
 
 # theme                    : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "My Blog - WangChang"
-title_separator          : "-"
-name                     : "WangChang"
-description              : "A blog site by WC."
+title                    : "Caria Blog | 汪畅"
+title_separator          : "|"
+name                     : "汪畅"
+description              : "学习 记录 成长"
 url                      : "https://cariawang.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "CariaWang/cariawang.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -100,10 +100,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "WangChang"
+  name             : "汪畅"
   avatar           : "/assets/images/dog.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a perfect person."
-  location         : "Wuhan, China"
+  bio              : "学习 记录 成长"
+  location         : "Huazhong University of Science and Technology."
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -136,7 +136,6 @@ author:
 include:
   - .htaccess
   - _pages
-  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -268,5 +267,13 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
-      related: true
+      # share: true
+      # related: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

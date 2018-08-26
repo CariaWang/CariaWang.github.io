@@ -1,5 +1,5 @@
 ---
-title:  "记 第一次 用自己的训练集 在tensorflow上训练CNN的 坑（3）"
+title:  "记 第一次 用自己的训练集 在tensorflow上训练CNN的 坑（4）"
 header:
   teaser: "/assets/images/tensorflow.jpg"
 categories: 
