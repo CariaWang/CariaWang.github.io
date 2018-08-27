@@ -463,4 +463,4 @@ function change_color() {
 }
 
 
-setInterval("change_color();", 1300);
+interval = setInterval("change_color();", 1300);
