@@ -4,18 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>小宝宝七夕快乐</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
-<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript">
-$(document).ready(
-   function(){
-   	document.onkeydown = function(){
-    var oEvent = window.event;
-    if (oEvent.keyCode == 32) {
-    	playPause();
-    }
-  }
-});
-</script>
 </head>
 <body>
 	<div id="wrapper" style="color: #00BFFF;">
@@ -29,7 +17,7 @@ $(document).ready(
 		<div style="line-height: 1.2" id="U"></div>
 		</div>
 	</div>
-	<audio loop id="aud">
+	<audio controls loop id="aud">
 		<source src="qixi.mp3" type="audio/mpeg">
 		您的浏览器不支持 audio 元素。
 	</audio>

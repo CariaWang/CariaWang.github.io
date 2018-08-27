@@ -462,13 +462,5 @@ function change_color() {
 	if (xin_index == 2) {xin_index = 0;}
 }
 
-function playPause() {
-	myAudio = document.getElementById('aud');
-	if(myAudio.paused){
-		myAudio.play();
-		interval = setInterval("change_color();", 1300);
-	}else{
-		clearInterval(interval);
-		myAudio.pause();
-	}
-}
+
+interval = setInterval("change_color();", 1300);
