@@ -1,14 +1,25 @@
-*.gem
-*.sublime-project
-*.sublime-workspace
-.bundle
+# Idea files
+.idea/*
+
+# Mac files
 .DS_Store
-.jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
-codekit-config.json
-example/_site
+
+# Byte-compiled / optimized / DLL files
+*.manifest
+*.spec
+
+# Jekyll dev or build files
+_site/*
+_development_tool/*
+.sass-cache/*
+*.css.map
+*.scssc
+
+# Theme Gem files
 Gemfile.lock
-node_modules
-npm-debug.log*
+*.gem
+.gems
+jekyll-theme-type-on-strap.gemspec
+
+# Node js files
+**/node_modules/*
