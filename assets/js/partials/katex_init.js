@@ -20,9 +20,7 @@ Array.prototype.forEach.call(elements, function (element) {
             katexElement.className += "math-inline";
         }
 
-        // Set displayMode to true to center equation
-        // https://github.com/Khan/KaTeX/issues/626
-        katex.render(textToRender, katexElement, {displayMode: false});
+        katex.render(textToRender, katexElement);
         element.parentNode.insertBefore(katexElement, element);
     }
 });
